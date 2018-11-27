@@ -1,0 +1,28 @@
+.container__clock {
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 800px;
+    background:#eee;
+    font-family: Orbitron;
+    font-size: 50px;
+}
+.container__clock--block {
+    display: flex;
+    flex-direction:row;
+}
+
+.block {
+    margin: 0 2.5px;
+    height: 65px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    color: #eee;
+    border-radius: 5px;
+}
